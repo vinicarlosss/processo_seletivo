@@ -26,10 +26,29 @@ export const Circle = styled.div`
 
 export const ControllerDiv = styled.div`
     position: absolute;
-    width: 1088px;
+    width: 300px;
     height: 100vh;
-    left: 279px;
-    top: 0px;
-    border: 1px solid #EBEBEB;
-    transform: rotate(90deg);
+    left: 80px;
+    border-right: 1px solid #EBEBEB;
+    p{
+        position: absolute;
+        width: 153px;
+        height: 26px;
+        left: 106px;
+        top: 111px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 26px;
+        color: #0794B2;
+    }
+    img{
+        position: absolute;
+        width: 40px;
+        height: 30px;
+        left: 59px;
+        right: 93.26%;
+        top: 125px;
+    }
 `;

@@ -4,13 +4,13 @@ import { Main } from './Components/styles';
 import Controller from "./Components/Controller.js";
 
 
-
 function App() {
   return (
     <>
       <Main>
         <Sidebar></Sidebar>
-        <Controller></Controller>
+        <Controller></Controller>]
+        
       </Main>
       
     </>
