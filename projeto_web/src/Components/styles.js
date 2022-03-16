@@ -1,8 +1,14 @@
 import styled from 'styled-components';
 
+
 export const Main = styled.div`
     display: flex;
     flex-direction: column;
+`;
+
+export const MainRow = styled.div`
+    display: flex;
+    flex-direction: row;
 `;
 
 export const Bar = styled.div`
@@ -65,4 +71,69 @@ export const Lines = styled.div`
     height: 2px;
     background: black;
     margin: 3px;
+`;
+
+export const Tittle = styled.h1`
+    position: relative;
+    width: 364px;
+    height: 26px;
+    left: 390px;
+    top: 33px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 26px;
+    color: #333333;
+`;
+
+export const HistoricalDiv = styled.div`
+    position: relative;
+    background: #FFFFFF;
+    margin: 40px;
+    width: 1000px;
+    height: 300px;
+    left: 350px;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 10px
+        rgba(0,0,0,0.05);
+    border-radius: 5px;
+    h4{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 21px;
+        color: #333333;
+    }
+    img{
+        position: relative;
+        width: 30px;
+        height: 25px;
+        top: 15px;
+        left: 565px;
+    }
+`;
+
+export const Selection = styled.select`
+    position: relative;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    top: 15px;
+    left: 550px;
+    margin-left: 10px;
+    background: #C4C4C4;
+    border-radius: 100px;
+    width: 244px;
+    height: 28px;
+    option{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+    }
 `;
