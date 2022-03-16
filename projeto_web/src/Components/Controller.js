@@ -11,7 +11,6 @@ export default function Controller(){
                         <img src ={chart}/>
                         <p>Painel de Controle</p>
                     </a>
-
                 </Main>
             </ControllerDiv>
         </>

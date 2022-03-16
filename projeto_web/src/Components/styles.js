@@ -15,6 +15,10 @@ export const Bar = styled.div`
 `;
 
 export const Circle = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     width: 61px;
     height: 61px;
@@ -51,4 +55,14 @@ export const ControllerDiv = styled.div`
         right: 93.26%;
         top: 125px;
     }
+`;
+
+export const Menu = styled.a`
+    cursor: pointer;
+`;
+export const Lines = styled.div`
+    width: 20px;
+    height: 2px;
+    background: black;
+    margin: 3px;
 `;

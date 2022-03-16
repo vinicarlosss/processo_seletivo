@@ -1,11 +1,18 @@
 import React from "react";
-import { Bar, Circle } from "./styles";
+import { Bar, Circle, Lines, Menu} from "./styles";
 
 export default function Sidebar(){
     return(
         <>
             <Bar>
-                <Circle></Circle>
+                <Circle>
+                    <Menu href="/">
+                        <Lines/>
+                        <Lines/>
+                        <Lines/>
+                    </Menu>
+
+                </Circle>
             </Bar>
         </>
     );
