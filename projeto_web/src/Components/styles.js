@@ -137,3 +137,23 @@ export const Selection = styled.select`
         line-height: 21px;
     }
 `;
+
+export const LittleBar = styled.div`
+    height: 13.5px;
+    margin: 2px;
+    transform: rotate(-90deg);
+`;
+
+export const LittleBarDiv = styled.div`
+    display: flex;
+    flex-direction: row;
+`;
+
+export const Text = styled.p`
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 9px;
+    line-height: 17px;
+    color: #161616;
+`;

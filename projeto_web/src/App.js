@@ -16,6 +16,7 @@ function App() {
           <Tittle>Painel de Controle</Tittle>
           <Historical></Historical>
       </Main>
+      
     </>
   );
 }
